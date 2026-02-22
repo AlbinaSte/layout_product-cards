@@ -1,3 +1,88 @@
+html {
+margin: 0;
+font-family: Roboto, sans-serif;
+background-image: url(/src/images/Rectangle\ 3.png);
+color: #060B35;
+;
+}
+
 body {
+margin: 0;
+}
+
+.header__top{
+padding: 0;
+box-sizing: border-box;
+display: flex;
+right: 19px;
+left: 19px;
+margin-top: 32px;
+}
+
+.top__head {
   margin: 0;
+font-family: Roboto, sans-serif;
+font-weight: 500;
+font-size: 12px;
+line-height: 18px;
+letter-spacing: 0%;
+right: 16px;
+width: 166;
+height: 36px;
+opacity: 1;
+top: 207px;
+left: 17px;
+
+color: #060B35;
+}
+
+.product__code {
+  font-family: Roboto, sans-serif;
+  font-weight: 400;
+  line-height: 14px;
+  letter-spacing: 0;
+  color: #616070;
+
+}
+
+.reviews__stars {
+  gap: 17px;
+  justify-content: space-between;
+}
+
+.reviews  {
+margin: 0;
+font-weight: 400;
+line-height: 14px;
+letter-spacing: 0;
+height: 16px;
+width: 53px;
+display: flex;
+color:#060B35;
+gap: 17px;
+
+}
+
+.stars {
+margin: 34;
+width: 16px;
+height: 16px;
+left: 60px;
+border-radius: 0.5px;
+display: flex;
+gap: 17px;
+
+}
+
+.icon__reviews {
+display: flex;
+justify-content: space beetween;
+}
+
+.price__bottom {
+  line-height: 16px;
+  width: 400;
+  size: 12px;
+  color:#616070;
+
 }
