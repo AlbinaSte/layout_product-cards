@@ -11,7 +11,7 @@ body {
   width: 200px;
   padding: 32px 16px 16px;
   border: 1px solid #f3f3f3;
-  color: #fff;
+  background-color: #fff;
 }
 
 .card__image {
@@ -41,7 +41,10 @@ body {
 
 .reviews {
   display: flex;
-  justify-content: space-between;
+  justify-content: flex-start;
+  align-items: center;
+  margin-bottom: 16px;
+  gap: 4px;
 }
 
 .stars {
@@ -68,50 +71,51 @@ body {
   font-size: 10px;
   line-height: 14px;
   color: #060b35;
-  margin-bottom: 24px;
+  padding-left: 17px;
 }
 
 .price {
   display: flex;
   justify-content: space-between;
-}
-
-.price__label {
-  margin: 0;
-  display: flex;
-  justify-content: space-between;
-  width: 50px;
-  height: 18px;
-  font-weight: 400;
-  font-size: 12px;
-  line-height: 18px;
-  letter-spacing: 0%;
-  color: #616070;
   margin-bottom: 16px;
 }
 
-.price__value {
-  padding: 0;
+.price__label {
+  font-weight: 400;
   margin: 0;
+  font-size: 12px;
+  line-height: 18px;
+  color: #616070;
+  letter-spacing: 0%;
+}
+
+.price__value {
+  margin: 0;
+  padding: 0;
   font-weight: 700;
   font-size: 16px;
   line-height: 18px;
   letter-spacing: 0%;
   color: #060b35;
-  margin-bottom: 16px;
 }
 
 .button {
+  margin-top: 24px;
   display: flex;
-  height: 40px;
   justify-content: center;
   align-items: center;
-  color: #fff;
-  text-decoration: none;
+
+  height: 40px;
+
   background-color: #00acdc;
+  color: #fff;
+
+  text-decoration: none;
+  text-transform: uppercase;
+
   border-radius: 5px;
   box-sizing: border-box;
-  border: solid 1px;
+  border: 1px solid #00acdc;
   font-family: Roboto, sans-serif;
   font-weight: 700;
   font-size: 14px;
@@ -119,6 +123,7 @@ body {
 }
 
 .button:hover {
-  background-color: #00acdc;
+  background-color: #fff;
+  color: #00acdc;
   border-radius: 5px;
 }
